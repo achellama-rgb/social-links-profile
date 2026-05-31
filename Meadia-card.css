@@ -1,0 +1,82 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+
+
+.Media-Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 610px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 12%);
+}
+.img-section {
+    height: 90px;
+    border: none;
+    border-radius: 90px;
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+.name-section {
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
+}
+.place-section {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 5px;
+    color: hsl(75, 94%, 57%);
+}
+.major-section {
+    font-family: Inter;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    font-size: 17px;
+}
+
+.media-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.links {
+    margin: 0;
+    width: 100%;
+    padding-left: 45px;
+}
+button {
+    font-family: Inter, Arial;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    height: 50px;
+    width: 82%;
+    margin: 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+
+}
